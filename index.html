@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai Digital | Kuliner Kekinian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Kedai <span>Digital</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="login.html" class="btn-login">Login Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Lezatnya Digital, Nyata Rasanya!</h1>
+            <p>Pesan makanan favoritmu dengan sekali klik.</p>
+            <a href="#menu" class="btn-main">Lihat Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Menu Kami</h2>
+        <div class="menu-grid" id="menu-container">
+            <div class="menu-card">
+                <img src="https://via.placeholder.com/300x200" alt="Nasi Goreng">
+                <div class="card-info">
+                    <h3>Nasi Goreng Spesial</h3>
+                    <p>Rp 25.000</p>
+                    <button onclick="pesanWA('Nasi Goreng Spesial')">Pesan via WA</button>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="https://via.placeholder.com/300x200" alt="Es Teh Manis">
+                <div class="card-info">
+                    <h3>Es Teh Manis</h3>
+                    <p>Rp 5.000</p>
+                    <button onclick="pesanWA('Es Teh Manis')">Pesan via WA</button>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>Tentang Kami</h2>
+        <p>Kedai Digital adalah solusi makan enak tanpa ribet. Kami menyajikan bahan berkualitas tinggi dengan pelayanan cepat berbasis teknologi.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kedai Digital - All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
